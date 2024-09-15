@@ -20,12 +20,19 @@
 
     document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
   </script>
+  <style>
+	:root {
+	  --md-filled-button-label-text-font: system-ui;
+	  --md-sys-color-primary: #4F1925;
+	  --md-sys-color-on-primary: #FFFFFF;
+	}
+	</style>
 </head>
 <title>VINHERIA AGNELLO</title>
 </head>
 <body>
 	<main class=" bg-neutral-200 h-screen w-screen p-2 flex flex-col justify-evenly items-center">
-		<h1 class="text-4xl">VINHERIA AGNELLO</h1>
+		<h1 class="text-4xl text-white font-bold">VINHERIA AGNELLO</h1>
 		<div class="flex flex-col "> 
 			<md-filled-button class="w-96">Entrar</md-filled-button>
 			<md-text-button>Ainda não tenho uma conta</md-text-button>
