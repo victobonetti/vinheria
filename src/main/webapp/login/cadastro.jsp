@@ -32,10 +32,22 @@
 </head>
 <body>
 	<main class=" bg-neutral-200 h-screen w-screen p-2 flex flex-col justify-evenly items-center">
-		<h1 class="text-4xl text-white font-bold select-none">VINHERIA AGNELLO</h1>
-		<div class="flex flex-col "> 
-			<md-filled-button href="login/login.jsp" class="w-96">Entrar</md-filled-button>
-			<md-text-button href="login/cadastro.jsp">Ainda não tenho uma conta</md-text-button>
+		<div class="flex flex-col w-96">
+			<h1 class=" mb-4 text-3xl text-left font-semibold text-[#4F1925]">Cadastro</h1>
+			<md-outlined-text-field class="mb-2" label="Nome">
+			</md-outlined-text-field>
+						<md-outlined-text-field class="mb-2" label="Email">
+			</md-outlined-text-field>
+						<md-outlined-text-field class="mb-2" label="Contato">
+			</md-outlined-text-field>
+						<md-outlined-text-field class="mb-4" type="password" label="Senha">
+			</md-outlined-text-field>
+			<md-input></md-input>
+			<md-filled-button class="w-full">Criar minha conta</md-filled-button>
+			<div class="flex items-center">
+				<md-checkbox touch-target="wrapper"></md-checkbox>
+				<p class="text-xs text-neutral-400">Ao ser cadastrado no app, você concorda com os Termos de serviço e com a Política de privacidade</p>
+			</div>
 		</div>
 		<form>
 

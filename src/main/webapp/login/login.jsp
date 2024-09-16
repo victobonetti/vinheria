@@ -31,11 +31,16 @@
 <title>VINHERIA AGNELLO</title>
 </head>
 <body>
-	<main class=" bg-neutral-200 h-screen w-screen p-2 flex flex-col justify-evenly items-center">
-		<h1 class="text-4xl text-white font-bold select-none">VINHERIA AGNELLO</h1>
-		<div class="flex flex-col "> 
-			<md-filled-button href="login/login.jsp" class="w-96">Entrar</md-filled-button>
-			<md-text-button href="login/cadastro.jsp">Ainda não tenho uma conta</md-text-button>
+	<main class=" bg-neutral-50 h-screen w-screen p-2 flex flex-col justify-evenly items-center">
+		<div class="flex flex-col w-96">
+			<h1 class="text-4xl font-bold select-none mb-8 text-center">VINHERIA AGNELLO</h1>
+			</md-outlined-text-field>
+						<md-outlined-text-field class="mb-2" label="Email">
+			</md-outlined-text-field>
+						<md-outlined-text-field class="mb-4" type="password" label="Senha">
+			</md-outlined-text-field>
+			<md-input></md-input>
+			<md-filled-button class="w-full">Entrar</md-filled-button>
 		</div>
 		<form>
 
